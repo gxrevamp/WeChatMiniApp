@@ -1,0 +1,57 @@
+{
+  "pages":[
+     
+    "pages/splash/splash",
+    "pages/zhihu/zhihu", 
+     "pages/user/user",
+    "pages/guoke/guoke",
+    "pages/douban/douban", 
+     "pages/wx_API/wx_API", 
+     "pages/login/login",  
+        "pages/user/user",
+    "pages/detail/detail"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": " #3CB371",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#3CB371"
+  },
+  "tabBar": {
+    "color": "#off",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/zhihu/zhihu",
+      "iconPath": "images/zhi_normal.png",
+      "selectedIconPath": "images/zhi_pressed.png",
+     "text": "知乎"
+    }, {
+      "pagePath": "pages/guoke/guoke",
+      "text": "果壳",
+      "iconPath": "images/guo_normal.png",
+      "selectedIconPath": "images/guo_pressed.png"
+    }, {
+      "pagePath": "pages/douban/douban",
+      "text": "豆瓣",
+      "iconPath": "images/dou_normal.png",
+      "selectedIconPath": "images/dou_pressed.png"
+    }, {      
+       "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/user_normal.png",
+      "selectedIconPath": "images/user_pressed.png"
+    }, {     
+       "pagePath": "pages/wx_API/wx_API",
+      "text": "登录",
+      "iconPath": "images/login_normal.png",
+      "selectedIconPath": "images/login_pressed.png"
+   
+    }]
+  }
+}
+
+
+  

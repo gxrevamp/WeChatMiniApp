@@ -1,0 +1,8 @@
+<view class="splash">
+    <view class="box">
+        <text class="title">欢迎使用</text>
+        <text class="title">-文馆-</text>
+        <button class="btn" bindtap="sClick">点击进入</button>
+        <text class="thanks">powered by SHW&GXR</text>
+    </view>
+</view>

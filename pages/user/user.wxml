@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+</view>
+
+  <view class="usersetitem">
+  <button class="btn" bindtap="sClick">我的收藏</button>
+  <button class="btn" bindtap="sClick">我的阅读</button>
+  <button class="btn" bindtap="sClick">我的文章</button> 
+   <button class="btn" bindtap="sClick">反馈建议</button>
+  </view>
